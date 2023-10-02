@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar WEB Dasar</title>
+    <style>
+    #text-nama {
+        font-size: 24px;
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body bgcolor="#D0BFFF">
+    <div id="text-nama">
+        <h1>(❁´◡`❁)Belajar WEB JEH</h1>
+    </div>
+    <h2>WEB apa Hayoooo(✿◕‿◕✿)</h2>
+    <h3>WEBINAAAR😭😥</h3>
+    <p>Perkenalkan Nama Saya Nuraeni, kegiatan saya saat ini belajar Pemograman Multimedia 2, di Kampus UNU Cirebon.</p>
+    <p>Saya Mahasiswi Universitas Nahdlatul Ulama Cirebon, Program Studi Teknik Informatika Fakultas Ilmu Komputer, Saat ini saya sedang lapar tolong belikan saya makanan. Begitupun teman-teman saya sedang bingung ingin makan apa tolong beri saran menu makan siang ini, dengan ketentuan 3M (Murah, Meriah, Muntah)</p>
+    <p>Nur siapnang prasmanan, Majlis obrog OTW, karo beseke aja klalen 5 yaaaaa</P> 
+      <script>
+          const textContainer = 
+                document.getElementById("text-nama");
+          
+          let hue = 0;
+    
+          setInterval(() => {
+              hue = (hue + 1) % 360;
+              const color = `hsl(${hue}, 100%, 50%)`;
+              textContainer.style.color = color;
+          }, 50);
+    </script>
+</body>
+</html>
